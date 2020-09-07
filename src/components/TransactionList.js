@@ -1,4 +1,6 @@
-import React from 'react';
+import React, { useContext } from 'react';
+import { GlovalContext } from '../context/GlobalState';
+
 
 export const TransactionList = () => {
   return (
